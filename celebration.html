@@ -17,7 +17,7 @@
         }
 
         body {
-            background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+            background: linear-gradient(135deg, #2d132c 0%, #801336 50%, #c72c41 100%);
             font-family: 'Georgia', serif;
             overflow-x: hidden;
             position: relative;
@@ -1156,8 +1156,8 @@
 
     <!-- Background Music -->
     <audio id="bgMusic" loop preload="metadata" crossorigin="anonymous">
-        <source src="./Oorum_blood_Nadhaswaram.mp3" type="audio/mpeg">
-        <source src="Oorum_blood_Nadhaswaram.mp3" type="audio/mpeg">
+        <source src="./Ratnamala.mp3" type="audio/mpeg">
+        <source src="Ratnamala.mp3" type="audio/mpeg">
     </audio>
 
     <!-- Music Control Button -->
@@ -1296,7 +1296,7 @@
             for (let i = 0; i < 80; i++) {
                 confettiParticles.push(new Confetti(true));
             }
-            playPopSound();
+            //playPopSound();
             
             if (confettiParticles.length > 350) {
                 confettiParticles = confettiParticles.slice(-350);
@@ -1339,21 +1339,28 @@
 
         // ========== LOVE JAR ==========
         const loveReasons = [
-            { emoji: "😊", text: "I love your beautiful smile that lights up my entire world." },
-            { emoji: "💭", text: "I love how you're always on my mind, from morning till night." },
-            { emoji: "🎵", text: "I love your laugh - it's my favorite sound in the universe." },
-            { emoji: "🤗", text: "I love how safe and warm I feel when I'm with you." },
-            { emoji: "✨", text: "I love how you make ordinary moments feel magical." },
-            { emoji: "💪", text: "I love how you support me and believe in me always." },
-            { emoji: "🦋", text: "I love the butterflies I still get when I see you." },
-            { emoji: "🌟", text: "I love how you inspire me to be a better person every day." },
-            { emoji: "🥰", text: "I love the way you look at me - like I'm your whole world." },
-            { emoji: "💕", text: "I love that you chose me, and I'd choose you in every lifetime." },
-            { emoji: "🌈", text: "I love how you bring color and joy into my life." },
-            { emoji: "💖", text: "I love you simply because you're YOU, Madhu." },
-            { emoji: "🏠", text: "I love how anywhere feels like home when I'm with you." },
-            { emoji: "🤝", text: "I love that you're my best friend and my soulmate." },
-            { emoji: "💫", text: "I love every little thing about you - the list is endless!" }
+            { emoji: "👀", text: "I still remember the first day I saw you in the office — that was the moment I fell for you." },
+            { emoji: "💘", text: "From that very first glance, my heart knew there was something special about you." },
+            { emoji: "😊", text: "Your smile is more beautiful than anything I’ve ever seen — it brightens my whole day instantly." },
+            { emoji: "🌸", text: "When you smile, the whole world feels lighter and happier." },
+            { emoji: "💫", text: "When you speak, even simple words sound magical to me." },
+            { emoji: "🌸", text: "You looked so cute and graceful, like Goddess Saraswathi herself." },
+            { emoji: "📚", text: "There’s something so calm, pure, and intelligent about you that draws me closer every day." },
+            { emoji: "🤓", text: "The way you wear your glasses makes you even more beautiful — it’s my favorite look on you." },
+            { emoji: "✨", text: "When you walk into the office, you light up the whole place without even trying." },
+            { emoji: "🎬", text: "You dress like a movie heroine — same elegant design, just different colors, and every color suits you perfectly." },
+            { emoji: "🌈", text: "No matter what color you wear, you make it look magical." },
+            { emoji: "💭", text: "That first day became my favorite memory, because that’s when my feelings for you began." },
+            { emoji: "🦋", text: "Even now, I get butterflies whenever I see you walking towards me." },
+            { emoji: "💞", text: "You didn’t just catch my eyes that day — you captured my heart." },
+            { emoji: "🌟", text: "Every day in the office feels special just because you’re there." },
+            { emoji: "🏢", text: "That office isn’t just a workplace for me anymore — it’s the place where I found someone extraordinary." },
+            { emoji: "💖", text: "Madhu, from the first day till now, my feelings for you have only grown stronger." },
+            { emoji: "💫", text: "Falling for you wasn’t planned — it just happened the moment I saw you." }
+            { emoji: "🌸", text: "You don’t even have to talk to me — your presence alone makes my world feel complete." },
+            { emoji: "✨", text: "Just knowing you’re around me makes me feel special and precious." },
+            { emoji: "💫", text: "Even in silence, your presence speaks to my heart." },
+            { emoji: "🦋", text: "I don’t need conversations — just seeing you nearby is enough to make my day." }
         ];
 
         let currentReasonIndex = 0;
